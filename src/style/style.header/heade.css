@@ -1,0 +1,41 @@
+.header {
+  padding: 0px 0px 20px 0px;
+}
+
+.header__title {
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+  color: white;
+  font-weight: 900;
+}
+
+.header__input__feild {
+  width: 100%;
+  height: auto;
+  padding: 4px 2px;
+  background: white;
+  border-radius: 4px;
+}
+
+.header__input__feild input {
+  width: 82%;
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 2px;
+  font-size: 17px;
+}
+
+.header__input__submit__btn {
+  width: 14%;
+  height: auto;
+  padding: 4px 5px;
+  outline: none;
+  border: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#363636), color-stop(#303030), to(#363636));
+  background: linear-gradient(#363636, #303030, #363636);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+/*# sourceMappingURL=heade.css.map */

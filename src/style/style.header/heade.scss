@@ -1,0 +1,39 @@
+.header {
+  padding: 0px 0px 20px 0px;
+  &__title {
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+    color: white;
+    font-weight: 900;
+  }
+  &__input__feild {
+    width: 100%;
+    height: auto;
+    padding: 4px 2px;
+    background: white;
+    border-radius: 4px;
+    input {
+      width: 82%;
+      height: auto;
+      border: none;
+      outline: none;
+      padding: 2px;
+      font-size: 17px;
+    }
+  }
+  &__input__submit__btn {
+    width: 14%;
+    height: auto;
+    padding: 4px 5px;
+    outline: none;
+    border: 0px;
+    background: linear-gradient(
+      rgb(54, 54, 54),
+      rgb(48, 48, 48),
+      rgb(54, 54, 54)
+    );
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+  }
+}
